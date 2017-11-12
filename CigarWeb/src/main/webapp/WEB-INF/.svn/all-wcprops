@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/depotsvn/CigarWeb/!svn/ver/13/src/main/webapp/WEB-INF
+END
+faces-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/depotsvn/CigarWeb/!svn/ver/13/src/main/webapp/WEB-INF/faces-config.xml
+END
+sun-web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/depotsvn/CigarWeb/!svn/ver/3/src/main/webapp/WEB-INF/sun-web.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/depotsvn/CigarWeb/!svn/ver/3/src/main/webapp/WEB-INF/web.xml
+END

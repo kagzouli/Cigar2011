@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+ 	<description>Simple example</description>
+    <display-name>CigarEAR</display-name>  
+	<module>
+    	<ejb>CigarService-1.0.jar</ejb>
+  	</module>
+  	<module>  	
+    	<web>
+       		<web-uri>CigarWeb-1.0.jar</web-uri>
+       		<context-root>web</context-root>
+   		</web>
+  	</module>
+</application>
+

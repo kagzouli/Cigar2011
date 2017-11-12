@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/depotsvn/CigarWeb/!svn/ver/14/src/main/webapp/jsp/customer
+END
+checkoutorder.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/depotsvn/CigarWeb/!svn/ver/12/src/main/webapp/jsp/customer/checkoutorder.jsp
+END
+showCart.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/depotsvn/CigarWeb/!svn/ver/12/src/main/webapp/jsp/customer/showCart.jsp
+END
+test.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/depotsvn/CigarWeb/!svn/ver/3/src/main/webapp/jsp/customer/test.jsp
+END
+orderconfirmation.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/depotsvn/CigarWeb/!svn/ver/14/src/main/webapp/jsp/customer/orderconfirmation.jsp
+END
+connectUser.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/depotsvn/CigarWeb/!svn/ver/8/src/main/webapp/jsp/customer/connectUser.jsp
+END

@@ -1,0 +1,153 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.exakaconsulting.poc</groupId>
+	<artifactId>Cigar2011</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<properties>
+	   <java.version>1.8</java.version>
+	   <log4j.version>1.2.17</log4j.version>
+	   <slf4j.version>1.7.25</slf4j.version>
+	   <commons-collections.version>3.2.2</commons-collections.version>
+	   <commons.lang.version>2.6</commons.lang.version>
+	   <mysql.version>5.1.44</mysql.version>
+	   <commonio.version>1.4</commonio.version>
+	   <junit.version>4.12</junit.version>
+	   <openejb.version>3.0</openejb.version>
+	   <jee.version>5.0-1</jee.version>
+	   <jsf.version>1.2</jsf.version>
+	   
+	</properties>
+
+	<dependencyManagement>
+		<dependencies>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>${log4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>
+		<dependency>
+            <groupId>org.apache.openejb</groupId>
+            <artifactId>javaee-api</artifactId>
+            <version>${jee.version}</version>
+            <scope>provided</scope>
+        </dependency>
+		<dependency>
+            <groupId>javax.faces</groupId>
+            <artifactId>jsf-api</artifactId>
+            <version>${jsf.version}</version>
+            <scope>provided</scope>
+        </dependency> 
+		<dependency>
+			<groupId>commons-collections</groupId>
+			<artifactId>commons-collections</artifactId>
+			<version>${commons-collections.version}</version>
+			<type>jar</type>
+		</dependency>
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>${commons.lang.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>${mysql.version}</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>${commonio.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.openejb</groupId>
+			<artifactId>openejb-core</artifactId>
+			<version>${openejb.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<type>jar</type>
+			<scope>test</scope>
+		</dependency>
+
+
+
+
+
+	
+
+		</dependencies>
+	</dependencyManagement>
+
+	<modules>
+		<module>CigarCommon</module>
+		<module>CigarService</module>
+		<module>CigarWeb</module>
+		<module>CigarEAR</module>
+	</modules>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+				  <groupId>org.apache.maven.plugins</groupId>
+				  <artifactId>maven-surefire-plugin</artifactId>
+     			  <version>2.4.3</version>
+				  <configuration>
+					<skipTests>true</skipTests>
+				  </configuration>
+			    </plugin>
+
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<configuration>
+						<source>${java.version}</source>
+						<target>${java.version}</target>
+					</configuration>
+				</plugin>
+				<plugin>
+					<artifactId>maven-ear-plugin</artifactId>
+					<version>2.3.2</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+	<profiles>
+	  	<profile>
+			<id>tomcat9</id>
+			<properties>
+				<jpa.scope>compile</jpa.scope>
+				<jta.scope>compile</jta.scope>
+			</properties>
+		</profile>
+		<profile>
+			<id>jee7</id>
+			<properties>
+				<jpa.scope>provided</jpa.scope>
+				<jta.scope>provided</jta.scope>	
+			</properties>
+		</profile>
+	</profiles>
+
+	
+</project>

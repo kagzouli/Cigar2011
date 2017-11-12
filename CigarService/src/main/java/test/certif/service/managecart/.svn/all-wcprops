@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/depotsvn/CigarService/!svn/ver/17/src/main/java/test/certif/service/managecart
+END
+OrderServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/depotsvn/CigarService/!svn/ver/17/src/main/java/test/certif/service/managecart/OrderServiceImpl.java
+END
+ManageCartImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/depotsvn/CigarService/!svn/ver/4/src/main/java/test/certif/service/managecart/ManageCartImpl.java
+END
+EMailSenderBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/depotsvn/CigarService/!svn/ver/17/src/main/java/test/certif/service/managecart/EMailSenderBean.java
+END

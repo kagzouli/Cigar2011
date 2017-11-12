@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/depotsvn/CigarCommon/!svn/ver/7/src/main/java/test/certif/service/manageproduct
+END
+ICustomerService.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/depotsvn/CigarCommon/!svn/ver/7/src/main/java/test/certif/service/manageproduct/ICustomerService.java
+END
+IManageCigar.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/depotsvn/CigarCommon/!svn/ver/5/src/main/java/test/certif/service/manageproduct/IManageCigar.java
+END

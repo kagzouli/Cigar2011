@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/depotsvn/CigarService/!svn/ver/2/src/main/java/test/certif/dao/manageproduct
+END
+CigarDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/depotsvn/CigarService/!svn/ver/1/src/main/java/test/certif/dao/manageproduct/CigarDAOImpl.java
+END
+ICategoryDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/depotsvn/CigarService/!svn/ver/2/src/main/java/test/certif/dao/manageproduct/ICategoryDAO.java
+END
+ICigarDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/depotsvn/CigarService/!svn/ver/2/src/main/java/test/certif/dao/manageproduct/ICigarDAO.java
+END
+CategoryDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/depotsvn/CigarService/!svn/ver/1/src/main/java/test/certif/dao/manageproduct/CategoryDAOImpl.java
+END

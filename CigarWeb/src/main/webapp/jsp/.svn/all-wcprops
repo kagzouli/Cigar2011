@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/depotsvn/CigarWeb/!svn/ver/14/src/main/webapp/jsp
+END
+searchCigar.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/depotsvn/CigarWeb/!svn/ver/1/src/main/webapp/jsp/searchCigar.jsp
+END
+viewCigar.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/depotsvn/CigarWeb/!svn/ver/6/src/main/webapp/jsp/viewCigar.jsp
+END
+connectUser.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/depotsvn/CigarWeb/!svn/ver/10/src/main/webapp/jsp/connectUser.jsp
+END
